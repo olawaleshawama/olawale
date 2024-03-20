@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.segun{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+}
+
+body{
+    max-width: 300px;
+    margin: auto;
+}
+.sil{
+    height: 30px;
+    width: 50px;
+    background-color: blue;
+
+}
+.moto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.car{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.tyer{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.tire{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30%;
+
+}
+.moving{
+    animation: car 2s infinite linear ;
+}
+@keyframes car {
+    0%{transform: translate(0px, 0px);}
+    100%{transform: translate(100px, 0px);}
+}
+
+
+
